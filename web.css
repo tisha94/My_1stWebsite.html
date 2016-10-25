@@ -1,1 +1,27 @@
 /*An External Style sheet is used to define the style for my HTML page*/
+body {
+			font: 25px/2 "times new roman", times, serif;
+			color: #000;
+		}
+		h1 {
+			text-shadow: -8px 8px 8px #999;
+		}
+		em {
+			font-weight: bold;
+			padding: 8px;
+		}
+		#elephant {
+			color: #eee;
+			background: #999;
+			text-shadow: 2px 1px 0 #000;
+		}
+		#plesiosaur {
+			background: #bde;
+			color: #06c;
+			text-shadow: 0 -3px 1px #fff;
+		}
+		#tourist {
+			color: #efa;
+			background: #be0;
+			text-shadow: 0 0 4px #360;
+		}
