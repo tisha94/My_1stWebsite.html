@@ -1,16 +1,15 @@
-/*An external Style sheet is used to define the style for my HTML page*/
+/*An External Style sheet is used to define the style for my HTML page*/
 
-/*<style>/*CSS styling */*/
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: gray;
 }
 
 li {
-    float: left;
+    float: right;
 }
 
 li a, .dropbtn {
@@ -50,4 +49,3 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-/*</style>*/
