@@ -3,16 +3,17 @@
 <?php
 $field_name = $_POST['cf_name'];
 $field_email = $_POST['cf_email'];
-$field_subject = $_POST['cf_email'];
+$field_subject = $_POST['cf_subject'];
 $field_message = $_POST['cf_message'];
 
-// ^^^^Assigning the data sent from the contact form fields (cf_name, cf_email, cf_message) to php variables ($cf_message, $field_email, $field_message)^^^^^^
+// ^^^^Assigning the data sent from the contact form fields (cf_name, cf_email,cf_subject,cf_message) to php variables ($cf_message, $field_email,$field_subject, $field_message)^^^^^^
 
-$mail_to = 'tisha_sutherland2001@aol.com';// $mail_to shall contain the site owner email, this is where the email is sent to.
+$mail_to = 'tisha_sutherland2001@aol.com';// $mail_to <== shall contain the site owner email, this is where the email is sent to.
 
 $subject = 'Message from a site visitor '.$field_name;// Subject of the email you receive from the contact form
 
 $body_message = 'From: '.$field_name."\n";
+$body_message .= 'Subject: '.$field_email."\n";
 $body_message .= 'E-mail: '.$field_email."\n";
 $body_message .= 'Message: '.$field_message;
 // ^^^^Constructing the body of the message^^^^
