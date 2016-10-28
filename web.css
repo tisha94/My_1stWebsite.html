@@ -1,5 +1,6 @@
 /*An External Style sheet is used to define the style for my HTML page*/
 
+<!-- =====================Tool/Nav Bar========================== -->
 /* Remove margins and padding from the list, and add a black background color */
 ul.topnav {
     list-style-type: none;
@@ -28,9 +29,10 @@ ul.topnav li a:hover {background-color: #567;}
 
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.topnav li.icon {display: none;}
+/*======END====^^===========Tool/Nav Bar========^^======END=========*/
+
 
 /*==============For Contact==========*/
-
 form {
   /* Just to center the form on the page */
   margin: 0 auto;
@@ -56,7 +58,7 @@ label {
 input, textarea {
   /* To make sure that all text field have the same font settings
      By default, textarea are set with a monospace font */
-  font: 1em sans-serif;
+  font: 1em 'Geo', sans-serif;
 
   /* To give the same size to all text field */
   width: 300px;
@@ -94,45 +96,4 @@ button {
   /* This extra magin represent the same space as the space between
      the labels and their text fields */
   margin-left: .5em;
-}
-
-
-
-.button {
-  border-radius: 4px;
-  background-color: #f4511e;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  padding: 20px;
-  width: 200px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-}
-
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button span:after {
-  content: '»';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button:hover span {
-  padding-right: 25px;
-}
-
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
 }
