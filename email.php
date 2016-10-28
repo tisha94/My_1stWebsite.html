@@ -25,14 +25,14 @@ $mail_status = mail($mail_to, $subject, $body_message, $headers);// Defining mai
 // If the mail() function executed successfully then do the code below
 if ($mail_status) { ?>
 	<script language="javascript" type="text/javascript">
-		alert('Thank you for the message. We will contact you shortly.');
-		window.location = 'contact_page.html';
+		alert('Thank you for the message. I will contact you shortly.');
+		window.location = 'My_1stWebsite.html';
 	</script>
 <?php
 }
 else { ?><!-- If the mail() function fails, then execute the following code -->
 	<script language="javascript" type="text/javascript">
-		alert('Message failed. Please, send an email to gordon@template-help.com');
+		alert('Darn! :/ Message failed. Please, send an email to tisha_sutherland2001@aol.com');
 		window.location = 'contact_page.html';
 	</script>
 <?php
