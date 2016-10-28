@@ -10,10 +10,10 @@ $field_message = $_POST['cf_message'];
 
 $mail_to = 'tisha_sutherland2001@aol.com';// $mail_to <== shall contain the site owner email, this is where the email is sent to.
 
-$subject = 'Message from a site visitor '.$field_name;// Subject of the email you receive from the contact form
+$subject = 'New Message from a site visitor!!'.$field_subject;// Subject of the email you receive from the contact form
 
 $body_message = 'From: '.$field_name."\n";
-$body_message .= 'Subject: '.$field_email."\n";
+$body_message .= 'Subject: '.$field_subject."\n";
 $body_message .= 'E-mail: '.$field_email."\n";
 $body_message .= 'Message: '.$field_message;
 // ^^^^Constructing the body of the message^^^^
@@ -27,7 +27,7 @@ $mail_status = mail($mail_to, $subject, $body_message, $headers);// Defining mai
 // If the mail() function executed successfully then do the code below
 if ($mail_status) { ?>
 	<script language="javascript" type="text/javascript">
-		alert('Thank you for the message. I will contact you shortly.');
+		alert('Thank you for contacting me. I will be in touch with you very soon.');
 		window.location = 'My_1stWebsite.html';
 	</script>
 <?php
