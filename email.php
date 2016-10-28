@@ -1,8 +1,9 @@
-<!-- contact/email.php file that will actually grab the data from the fields, compose into a message and send to your email.  -->
+<!-- contact/email.php file that will actually grab the data from the fields, compose into a message and send to your/my email.  -->
 
 <?php
 $field_name = $_POST['cf_name'];
 $field_email = $_POST['cf_email'];
+$field_subject = $_POST['cf_email'];
 $field_message = $_POST['cf_message'];
 
 // ^^^^Assigning the data sent from the contact form fields (cf_name, cf_email, cf_message) to php variables ($cf_message, $field_email, $field_message)^^^^^^
