@@ -1,7 +1,7 @@
 /*An External Style sheet is used to define the style for my HTML page*/
 
 
-<!-- =====================Tool/Nav Bar==============``============ -->
+<!-- =====================Tool/Nav Bar========================== -->
 /* Remove margins and padding from the list, and add a black background color */
 ul.topnav {
     list-style-type: none;
@@ -30,10 +30,10 @@ ul.topnav li a:hover {background-color: #567;}
 
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.topnav li.icon {display: none;}
-/*======END====^^=======^====Tool/Nav Bar========^^======END=========*/
+/*======END====^^===========Tool/Nav Bar========^^======END=========*/
 
 
-/*==============For Contact==========*/
+/*==============For Contact pg==========*/
 form {
   /* Just to center the form on the page */
   margin: 0 auto;
