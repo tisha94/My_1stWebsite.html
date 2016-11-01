@@ -14,7 +14,7 @@ ul.topnav {
 /* Float the list items side by side */
 ul.topnav li {float: right;}
 
-/* Style the links inside the list items */
+/* Style the linkss inside the list items */
 ul.topnav li a {
     display: inline-block;
     color: #f2f2f2;
