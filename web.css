@@ -59,7 +59,7 @@ label {
 input, textarea {
   /* To make sure that all text field have the same font settings
      By default, textarea are set with a monospace font */
-  font: 1em 'Geo', sans-serif;
+  font-family: 'Iceland', cursive;
 
   /* To give the same size to all text field */
   width: 300px;
