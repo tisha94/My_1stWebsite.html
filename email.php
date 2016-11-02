@@ -1,4 +1,4 @@
-<!-- contact/email.php file that will actually grab the data from the fields, compose into a mmessage and send to your/my email.  -->
+<!-- contact/email.php file that will actually grab the data from the fields, compose into a message and send to your/my email.  -->
 
 <?php
 $field_name = $_POST['cf_name'];
