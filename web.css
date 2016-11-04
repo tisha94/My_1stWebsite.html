@@ -1,7 +1,7 @@
 /*An External Style sheet is used to define the style for my HTML page*/
 
 
-<!-- ==============x=======Tool/Nav Bar=========================== -->
+<!-- =====================Tool/Nav Bar========================== -->
 /* Remove margins and padding from the list, and add a black background color */
 ul.topnav {
     list-style-type: none;
@@ -14,7 +14,7 @@ ul.topnav {
 /* Float the list items side by side */
 ul.topnav li {float: right;}
 
-/* Style the linkss inside the list items */
+/* Style the links inside the list items */
 ul.topnav li a {
     display: inline-block;
     color: #f2f2f2;
