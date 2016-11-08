@@ -1,6 +1,6 @@
 /*
 Ann object-oriented Typing Text script, to allow for multiple instances.
-A script that causes any text inside any text element to be "typed out", one letter at a time. Note that any HTML tags will not be included in the typed output, to prevent them from causing problems
+A script that causes any text inside any text element to be "typed out", one letter at a time. Note that any HTML tags will not be included in the typed output, to prevent them from causing problems--------
 
 Functions defined:
   TypingText(element, [interval = 100,] [cursor = "",] [finishedCallback = function(){return}]):
